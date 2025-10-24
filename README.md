@@ -1,5 +1,6 @@
 # ChatGPT
-我們利用了ChatGPT建立起一套微信登入系統，目前功能可以操作的僅有登入按鈕，在註冊按鈕中我們建立了一個index.js的檔案，目的是將註冊成功的帳號寫入當按裡面。
+我們利用了ChatGPT建立起一套微信登入系統，目前功能可以操作的僅有登入按鈕，在註冊按鈕中我們建立了一個index.js的檔案，目的是將註冊成功的帳號寫入檔案裡面。
+
 <img width="423" height="864" alt="image" src="https://github.com/user-attachments/assets/a9ffd522-4053-43ba-9f63-09ce5b4ad44c" />
 <img width="392" height="783" alt="image" src="https://github.com/user-attachments/assets/50018f82-ef3f-4dc5-b5b1-e520453572e7" />
 
