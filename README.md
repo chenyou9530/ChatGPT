@@ -1,11 +1,19 @@
 # ChatGPT
 我們利用了ChatGPT建立起一套微信登入系統，目前功能可以操作的僅有登入按鈕，在註冊按鈕中我們建立了一個index.js的檔案，目的是將註冊成功的帳號寫入檔案裡面。
 
-<img width="423" height="864" alt="image" src="https://github.com/user-attachments/assets/a9ffd522-4053-43ba-9f63-09ce5b4ad44c" />
-<img width="392" height="783" alt="image" src="https://github.com/user-attachments/assets/50018f82-ef3f-4dc5-b5b1-e520453572e7" />
 
-<img width="426" height="791" alt="image" src="https://github.com/user-attachments/assets/e03473fb-c954-4d77-89d3-e0fdd93659a6" />
+<img width="851" height="733" alt="image" src="https://github.com/user-attachments/assets/058d5e70-a99d-4e65-ade0-a2c92e393780" />
 
+接著跟GPT說請他修改CSS的樣式
+
+<img width="771" height="783" alt="image" src="https://github.com/user-attachments/assets/8b5f8f90-2bd3-4859-b06a-52d493e7003b" />
+
+
+<img width="1284" height="1013" alt="image" src="https://github.com/user-attachments/assets/98dfcb81-f4b3-4ce6-b955-64fbcd7bfe51" />
+
+之後請他修改一些程式碼可以作用在自動登入、記住帳號、密碼顯示/隱藏，以及登入跳轉畫面
+
+<img width="783" height="880" alt="image" src="https://github.com/user-attachments/assets/25391400-546f-406d-898b-c93f05b108ee" />
 
 但我們測試後雖然可以成功跳出註冊成功的畫面且重複按一次後會再跳出用戶已註冊，但是無法將帳號寫入index.js裡面，而註冊成功的帳號會被暫時用本地儲存 (wx.setStorageSync) 來模擬註冊後的帳號保存。
 
