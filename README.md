@@ -13,18 +13,24 @@
 之後請他修改一些程式碼可以作用在自動登入、記住帳號，以及登入跳轉畫面
 # 登入
 <img width="783" height="880" alt="image" src="https://github.com/user-attachments/assets/25391400-546f-406d-898b-c93f05b108ee" />
+
 # 記住帳號
 當有登入過一次之後就會將帳號記住
 <img width="1278" height="880" alt="image" src="https://github.com/user-attachments/assets/cf5bd688-9c3a-42bd-8116-6dfdb383e8be" />
+
 # 自動登入
 當帳號有成功登入之後 就會將帳號記住再次登入之後會直接登入
 <img width="1271" height="735" alt="image" src="https://github.com/user-attachments/assets/c65bba9c-b439-4c10-a090-ac43a61821a3" />
+
 # 登入跳轉畫面
 登入之後就會跳轉到以下這個畫面
 <img width="1291" height="875" alt="image" src="https://github.com/user-attachments/assets/ad6b01b1-3f90-439f-b89f-a176f5aa6d4f" />
 
 # 註冊
 但我們測試後雖然可以成功跳出註冊成功的畫面且重複按一次後會再跳出用戶已註冊，但是無法將帳號寫入index.js裡面，而註冊成功的帳號會被暫時用本地儲存 (wx.setStorageSync) 來模擬註冊後的帳號保存。
+<img width="1281" height="887" alt="image" src="https://github.com/user-attachments/assets/487248c6-1820-4d60-8955-9c267b1862ee" />
+<img width="1271" height="862" alt="image" src="https://github.com/user-attachments/assets/119ef654-3751-46c8-89fd-75a3f12e9821" />
+
 
 # 擴充功能
 1.希望在註冊的方面可以利用SQL作為帳號資料的存儲，並將SQL掛載到js檔案裏面做新增讀取的功能，以及在註冊介面新增一個電話號碼以防止帳號被過度註冊而導致SQL儲存空間太大，並藉由電話號碼將帳號設定成專一性。
@@ -33,4 +39,4 @@
 
 # 缺點
 1.自動登入:
-經過我們在測試過後，無論是什麼帳號只要登入過後就會直接登入。
+經過我們在測試過後，無論是什麼帳號只要登入過後就會直接登入，導致說不能使用註冊按鈕。
