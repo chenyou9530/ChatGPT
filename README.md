@@ -11,7 +11,7 @@
 
 
 之後請他修改一些程式碼可以作用在自動登入、記住帳號，以及登入跳轉畫面
-#登入
+# 登入
 <img width="783" height="880" alt="image" src="https://github.com/user-attachments/assets/25391400-546f-406d-898b-c93f05b108ee" />
 # 記住帳號
 當有登入過一次之後就會將帳號記住
